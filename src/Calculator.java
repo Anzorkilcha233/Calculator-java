@@ -31,6 +31,7 @@ public class Calculator {
                 System.out.println("Результат: "+number1+" "+"+"+" "+number2+" "+"="+" "+result);
             }
             else if (operator == 2) {
+<<<<<<< HEAD
                 result = number1 - number2;
                 System.out.println("Результат: "+number1+" "+"-"+" "+number2+" "+"="+" "+result);
             }
@@ -40,6 +41,17 @@ public class Calculator {
             }
             else if (operator == 4) {
                 result = number1 / number2;
+=======
+                result = number1 + number2;
+                System.out.println("Результат: "+number1+" "+"-"+" "+number2+" "+"="+" "+result);
+            }
+            else if (operator == 3) {
+                result = number1 + number2;
+                System.out.println("Результат: "+number1+" "+"*"+" "+number2+" "+"="+" "+result);
+            }
+            else if (operator == 4) {
+                result = number1 + number2;
+>>>>>>> 677ee8c5d5fdd549d133b92c16b58c440b790abb
                 System.out.println("Результат: "+number1+" "+"/"+" "+number2+" "+"="+" "+result);
             }
             else {
@@ -49,8 +61,13 @@ public class Calculator {
             System.out.println();
             Scanner scan = new Scanner(System.in);
             System.out.print("Хотите выполнить еще одну операцию? (да/нет): "); String question = scan.nextLine();
+<<<<<<< HEAD
             
             int num1 = question.length();
+=======
+            int num1 = question.length();
+
+>>>>>>> 677ee8c5d5fdd549d133b92c16b58c440b790abb
             if(num1 == 3) {
                 System.out.println();
                 System.out.println("Спасибо за использование калькулятора!");
